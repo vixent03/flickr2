@@ -61,7 +61,7 @@ header main {
 }
 
 .logo h1 {
-    color: #e04c4c;
+    color: #ffffff;
     font-family: open-sans, Arial, Helvetica, sans-serif;
 }
 
@@ -200,7 +200,7 @@ main a {
     margin: 5px;
 }
 
-@media screen and (min-width :600px) {
+@media screen and (width < 700px) {
     .searchbar input {
         display: none;
     }
@@ -256,7 +256,7 @@ main a {
     }
 }
 
-@media screen and (min-width :700px) {
+@media screen and (width < 900px) {
     .nav2 {
         width: fit-content;
         display: flex;
